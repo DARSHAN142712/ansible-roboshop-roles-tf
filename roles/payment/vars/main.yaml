@@ -1,5 +1,5 @@
-CART_HOST: cart.daws84s.xyz
-USER_HOST: user.daws84s.xyz
-RABBITMQ_HOST: rabbitmq.daws84s.xyz
+CART_HOST: cart.backend-{{ env }}.daws84s.xyz
+USER_HOST: user.backend-{{ env }}.daws84s.xyz
+RABBITMQ_HOST: rabbitmq-{{ env }}.daws84s.xyz
 RABBITMQ_USER: roboshop
-RABBITMQ_PASSWORD: roboshop123  
+RABBITMQ_PASSWORD: roboshop123

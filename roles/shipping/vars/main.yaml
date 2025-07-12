@@ -1,5 +1,4 @@
-CART_HOST: cart.daws84s.xyz
-MYSQL_HOST: mysql.daws84s.xyz
+MYSQL_HOST: mysql-{{ env }}.daws84s.xyz
 MYSQL_ROOT_USER: root
 MYSQL_ROOT_PASSWORD: RoboShop@1
-SHIPPING_HOST: shipping.daws84s.xyz  
+CART_HOST: cart.backend-{{ env }}.daws84s.xyz

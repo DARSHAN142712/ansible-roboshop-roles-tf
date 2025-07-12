@@ -1,2 +1,2 @@
- REDIS_HOST: redis.daws84s.xyz
- CATALOGUE_HOST: catalogue.daws84s.xyz 
+CATALOGUE_HOST: catalogue.backend-{{ env }}.daws84s.xyz
+REDIS_HOST: redis-{{ env }}.daws84s.xyz
